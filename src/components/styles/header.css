@@ -1,0 +1,40 @@
+.header {
+    border-bottom: 2px solid #c45238;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Oleo Script', cursive;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    /* background-color: red; */
+}
+
+.header ul li {
+    margin: 20px 0;
+}
+
+.header a:link, a:visited {
+    text-decoration: none;
+    color: #333;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px;
+    transition: .2s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.header a:hover {
+    color: #c45238;
+    /* padding: 0; */
+    transform: translateY(-4px);
+}

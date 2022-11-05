@@ -1,0 +1,74 @@
+.card {
+    background-color: white;
+    width: 20%;
+    height: 400px;
+    transition: .2s ease;
+    cursor: grab;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.card:hover {
+    border: none;
+    transform: scale(1.1);
+    box-shadow: 0px 3px 3px rgb(56, 56, 56);
+}
+
+.card-header {
+    height: 30%;
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    /* background-image: linear-gradient(to right bottom, #2998ff, #5643fa); */
+    padding: 20px;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+
+.card-body {
+    padding: 5px 20px;
+    text-align: center;
+    height: 50%;
+}
+
+.card-body h3 {
+    margin: 5px 0;
+}
+
+.infos {
+    /* width: 80%; */
+    margin: 10px 0;
+    text-align: left;
+    list-style-type: circle;
+}
+
+.infos li {
+    margin: 8px 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.infos li span {
+    font-weight: 600;
+    color: #2998ff;
+    margin-right: 10px;
+}
+
+.card-tail {
+    height: 20%;
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    /* background-image: linear-gradient(to right bottom, #2998ff, #5643fa); */
+    padding: 20px 0 0 0;
+    clip-path: polygon(0 43%, 100% 0, 100% 100%, 0% 100%);
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Oleo Script', cursive;
+}
