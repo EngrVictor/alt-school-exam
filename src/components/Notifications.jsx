@@ -2,7 +2,7 @@ import React from 'react'
 import useFetch from './hooks/useFetch'
 
 const Notifications = () => {
-   const [data] = useFetch('https://api.github.com/users/engrvictor/repos', setLoading)
+   const [data] = useFetch('https://api.github.com/users/engrvictor/repos')
     console.log(data)
   
   return (
